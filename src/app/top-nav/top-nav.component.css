@@ -1,0 +1,9 @@
+.topNav {
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+.topNav li {
+  display: inline-block;
+  margin-right: 25px;
+}

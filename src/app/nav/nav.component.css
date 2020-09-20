@@ -1,0 +1,52 @@
+nav {
+  height: 100%;
+  background-color: #387d7a;
+  padding: 0px;
+}
+
+nav div ul li a {
+  color: white;
+  font-size: 16px;
+}
+
+nav div ul li:hover {
+  background-color: #38aba7;
+  border-radius: 0 30px 30px 0;
+}
+
+nav div {
+  width: 100%;
+  padding-right: 30px;
+}
+
+ul {
+  width: 100%;
+}
+
+ul li a {
+  width: 100%;
+  margin-left: 60px;
+}
+
+ul li:first-child {
+  position: absolute;
+  top: 15px;
+}
+
+ul li:first-child:hover {
+  background-color: transparent;
+}
+
+ul li:last-child {
+  position: relative;
+  top: 50px;
+}
+
+ul li a img {
+  width: 16px;
+  margin: 5px;
+}
+
+.mainLogo {
+  width: auto !important;
+}
