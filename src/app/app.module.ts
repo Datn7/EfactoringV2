@@ -9,6 +9,7 @@ import { TablesComponent } from './tables/tables.component';
 import { NavComponent } from './nav/nav.component';
 import { OffersComponent } from './offers/offers.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
+import { SideNavTestComponent } from './side-nav-test/side-nav-test.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TopNavComponent } from './top-nav/top-nav.component';
     TablesComponent,
     NavComponent,
     OffersComponent,
-    TopNavComponent
+    TopNavComponent,
+    SideNavTestComponent
   ],
   imports: [
     BrowserModule,
