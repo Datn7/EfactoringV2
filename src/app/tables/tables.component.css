@@ -29,3 +29,7 @@ table tbody tr td {
 .tableHeader {
   margin-top: 15px;
 }
+
+.table-responsive {
+  display: table;
+}

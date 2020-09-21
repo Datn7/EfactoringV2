@@ -19,6 +19,9 @@ ul li a {
   margin-left: 60px;
 }
 
+.mainLogo {
+  width: 150px;
+}
 
 
 .mainLogo {
@@ -69,25 +72,8 @@ nav div ul li:hover {
   align-items: stretch;
 }
 
-.topFlex {
-  border: 1px solid red;
-  display: flex;
-  width: 100%;
-  height: 50px;
-  padding: 0px;
-}
-
 .middleFlex {
-  border: 1px solid red;
-  display: flex;
-  width: 100%;
-}
-
-.bottomFlex {
-  border: 1px solid red;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+  border: 1px solid violet;
 }
 
 @media (min-width: 576px) {
@@ -100,4 +86,58 @@ nav div ul li:hover {
 }
 
 @media (min-width: 1200px) {
+}
+
+.redColor {
+  color: red;
+}
+
+@media (max-width: 500px) {
+  .redColor {
+    color: green;
+  }
+}
+
+#flexNav {
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: stretch;
+  height: 100vh;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 576px) {
+  #flexNav {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  #flexNav {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  #flexNav {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100px;
+  }
 }
