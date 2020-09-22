@@ -1,4 +1,5 @@
 <nav class="navbar navbar-expand-lg flex" id="flexNav">
+  <img src="assets/icons/logo.svg" class="logoClass">
   <button
     class="navbar-toggler"
     type="button"
@@ -11,11 +12,8 @@
     <span><img src="/assets/icons/logo.svg" class="img-fluid" /></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse flexParent" id="navbarSupportedContent " fxFlex>
     <ul class="navbar-nav mr-auto flex-column middleFlex">
-      <li class="nav-item">
-        <a href="#" id="mainLogoId">LOGO</a>
-      </li>
       <li class="nav-item active">
         <a class="nav-link" href="#">
           <span><img src="/assets/icons/home.svg" /></span>მთავარი გვერდი</a
@@ -36,9 +34,10 @@
           <span><img src="/assets/icons/people.svg" /></span>წარმომადგენლები</a
         >
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">გასვლა</a>
-      </li>
+      
     </ul>
+    <a href="" class="belowExit">
+      <img src="assets/icons/log out.svg">გასვლა
+     </a>
   </div>
 </nav>
